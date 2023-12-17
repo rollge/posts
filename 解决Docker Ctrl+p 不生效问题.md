@@ -30,6 +30,13 @@ description: "使用docker过程中，如果进入docker终端后，ctrl+p无法
 }
 ```
 
+**podman:**
+```sh
+# ~/.config/containers/containers.conf
+[engine]
+detach_keys="ctrl-z,z"
+```
+
 
 参考资料：
 
